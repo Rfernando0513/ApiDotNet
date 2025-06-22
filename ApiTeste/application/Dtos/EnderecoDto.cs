@@ -4,7 +4,6 @@ namespace DesafioMuralis.application.dtos
 {
     public class EnderecoDto
     {
-        public int Id { get; set; }
         public string Cep { get; set; }
         public string? Logradouro { get; set; }
 

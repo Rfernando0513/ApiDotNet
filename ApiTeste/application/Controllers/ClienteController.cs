@@ -47,7 +47,7 @@ namespace DesafioMuralis.application.Controllers
             }
         }
 
-        [HttpGet("ListarClientePorId/{id}")]
+        [HttpGet("BuscarClientePorId/{id}")]
         public async Task<ActionResult> BuscarClientePorId(int id)
         {
             try

@@ -49,6 +49,7 @@ namespace DesafioMuralis.core.Services
                 }
 
                 var cliente = _mapper.Map<ClienteModel>(clienteDto);
+                cliente.DataCadastro = DateTime.Now;
 
                 cliente.Endereco = new EnderecoModel
                 {
